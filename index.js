@@ -15,7 +15,7 @@ function titleCased () {
   tutorials.map(function a(){
     a=a.split(" ")
     for (let i=0 ; i<tutorial.lenght ; i++){
-    a[i]=[i].charAt(0)  
+    a[i]=[i].charAt(0)
     }
    return  tutorials.join(' ').toUpperCase()+tutorial[i].slice(1)
  )}
