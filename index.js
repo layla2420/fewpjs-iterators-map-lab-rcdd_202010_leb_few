@@ -19,3 +19,4 @@ function titleCased () {
     }
    return  tutorials.join(' ').toUpperCase()+tutorial[i].slice(1)
  )}
+}
